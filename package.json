@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-template-no-unused-data",
+  "version": "0.0.0",
+  "description": "未在template使用的数据则不需要在data中定义",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "eslint-plugin-template-no-unused-data",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --fix --ext .js,.vue test",
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^9.1.3",
+    "vue-eslint-parser": "^8.3.0"
+  },
+  "engines": {
+    "node": "12.x || 14.x || >= 16"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "license": "ISC"
+}
